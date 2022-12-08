@@ -25,12 +25,6 @@ h1 {
   font-style: normal;
 }
 
-h2 {
-    font-family: trade-gothic-next, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 25px;
-}
 .title {
   font-family: trade-gothic-next, sans-serif;
   font-weight: 800;
@@ -107,6 +101,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.homeImg {
+  width: 500px;
+}
+
+.homeGroup {
+  width: 500px;
 }
 
 .typoImg {
