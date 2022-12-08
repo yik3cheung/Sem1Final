@@ -81,6 +81,15 @@ footer {
   margin: 0;
   padding: 5px;
 }
+
+.link {
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
       
 
 .typoBody {
@@ -133,7 +142,8 @@ body {
 .typoCap {
   font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
   font-style: normal;
-  font-size: 23px;
+  font-size: 27px;
+  padding-bottom: 20px;
 }
 
 .typoIntro {
@@ -142,6 +152,8 @@ body {
   font-style: normal;
   text-align: center;
   color: #e6e6e6;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .postBody {
@@ -173,11 +185,17 @@ body {
   font-style: normal;
   text-align: center;
   color: #e6e6e6;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .finPost {
   background-color: #424242;
   padding: 30px;
+}
+
+.finPostImg {
+  width: 550px;
 }
 
 .workBody {
@@ -228,11 +246,11 @@ body {
 }
 
 .post-mediacontent {
-  font-family: trade-gothic-next, sans-serif;
-  font-weight: 300;
+  font-family: trade-gothic-next-compressed, sans-serif;
+  font-weight: 800;
   font-style: normal;
   color: #e6e6e6;
-  font-size: 25px;
+  font-size: 30px;
   padding-left: 15px;
   margin: 0;
 }
