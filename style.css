@@ -130,3 +130,37 @@ body {
   text-align: center;
   color: #e6e6e6;
 }
+
+.postBody {
+  background-color: #bc3838;
+  margin: 0;
+}
+
+.postImg {
+  width: 400px;
+}
+
+.postGroup {
+  width: 450px;
+}
+
+.postCap {
+  font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  flex: 1;
+  padding: 10px;
+}
+
+.postIntro {
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #e6e6e6;
+}
+
+.finPost {
+  background-color: #424242;
+  padding: 20px;
+}
