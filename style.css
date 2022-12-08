@@ -137,7 +137,7 @@ body {
 }
 
 .postImg {
-  width: 400px;
+  width: 425px;
 }
 
 .postGroup {
@@ -147,9 +147,9 @@ body {
 .postCap {
   font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
   flex: 1;
-  padding: 10px;
+  color: rgb(224, 224, 224);
 }
 
 .postIntro {
@@ -163,4 +163,52 @@ body {
 .finPost {
   background-color: #424242;
   padding: 20px;
+}
+
+.workBody {
+  background-color: #4e5aff;
+  margin: 0;
+}
+
+.workImg {
+  width: 425px;
+}
+
+.workGroup {
+  width: 450px;
+}
+
+.workCap {
+  font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  flex: 1;
+  color: rgb(224, 224, 224);
+}
+
+.workIntro {
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #e6e6e6;
+}
+
+.media-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+  flex: 1;
+  padding: 10px;
+}
+
+.mediacontent {
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
