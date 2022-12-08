@@ -43,8 +43,6 @@ h1 {
         padding-left: 0;
         overflow: hidden;
         background-color: rgb(0, 0, 0);
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
         top: 0;
       }
      
@@ -70,6 +68,18 @@ li a {
       
 li a:hover {
         background-color: rgb(54, 54, 54);
+}
+
+footer {
+  background-color: black;
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 5px;
 }
       
 
@@ -109,6 +119,7 @@ body {
 
 .homeGroup {
   width: 500px;
+  margin: 0;
 }
 
 .typoImg {
@@ -122,7 +133,7 @@ body {
 .typoCap {
   font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .typoIntro {
@@ -147,9 +158,11 @@ body {
 }
 
 .postCap {
-  font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
+  font-family: trade-gothic-next-compressed, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 27px;
+  text-align: center;
   flex: 1;
   color: rgb(224, 224, 224);
 }
@@ -221,5 +234,10 @@ body {
   color: #e6e6e6;
   font-size: 25px;
   padding-left: 15px;
+  margin: 0;
+}
+
+.reflBody {
+  background-color: #727272;
   margin: 0;
 }
