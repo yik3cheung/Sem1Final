@@ -267,3 +267,14 @@ body {
   background-color: #727272;
   margin: 0;
 }
+
+.about {
+  color: #e6e6e6;
+  font-size: 30px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
