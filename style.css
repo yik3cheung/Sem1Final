@@ -235,10 +235,11 @@ body {
 }
 
 .mediacontent {
-  font-family: trade-gothic-next, sans-serif;
-  font-weight: 400;
+  font-family: trade-gothic-next-compressed, sans-serif;font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 27px;
+  padding-bottom: 20px;
+  color: white;
 }
 
 .post-media-container {
