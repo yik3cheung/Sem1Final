@@ -9,7 +9,7 @@ video {
 }
 
 .home_text {
-    color: #e6e6e6;
+    color: white;
     font-size: 50px;
     position: relative;
     align-items: center;
@@ -268,13 +268,29 @@ body {
   margin: 0;
 }
 
+.refCap {
+  color: white;
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 23px;
+  margin: 30px;
+}
+
 .about {
-  color: #e6e6e6;
-  font-size: 30px;
+  color: white;
+  font-size: 25px;
   position: relative;
   align-items: center;
   text-align: center;
-  display: flex;
   justify-content: center;
 }
 
+.aboutCap {
+  color: white;
+  font-size: 17px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
