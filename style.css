@@ -277,21 +277,3 @@ body {
   font-size: 23px;
   margin: 30px;
 }
-
-.about {
-  color: white;
-  font-size: 25px;
-  position: relative;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.aboutCap {
-  color: white;
-  font-size: 17px;
-  position: relative;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
